@@ -1,0 +1,85 @@
+.header {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header div.header-container {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.accounts-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 250px;
+}
+
+.accounts-dropdown h4 {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #4e5381;
+}
+
+.accounts-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.accounts-dropdown li {
+    padding: 8px 5px;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accounts-dropdown li:last-child {
+    border-bottom: none;
+}
+
+.accounts-dropdown .account i.danger {
+    font-weight: 900;
+    transition: 0.3s;
+    color: #888;
+    cursor: pointer;
+}
+.accounts-dropdown button {
+    width: 100%;
+    margin: 2px 0;
+}
+
+.header .header-left {
+    color: #4e5381;
+}
+.header .header-left h1 {
+    font-size: 1.25rem;
+}

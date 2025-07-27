@@ -1,0 +1,46 @@
+[
+  {
+    "invoice_id": 7617,
+    "domain_id": 2,
+    "type": 0,
+    "summary_total": 345,
+    "date": "2025-07-12",
+    "business_name": "Fojian Tenlead Advanced شركة",
+    "payment_status": 2,
+    "requisition_delivery_status": 3,
+    "follow_up_status": null
+  },
+  {
+    "invoice_id": 7618,
+    "domain_id": 2,
+    "type": 0,
+    "summary_total": 1000,
+    "date": "2025-07-01",
+    "business_name": "Amer S",
+    "payment_status": 1,
+    "requisition_delivery_status": null,
+    "follow_up_status": null
+  },
+  {
+    "invoice_id": 17,
+    "domain_id": 1,
+    "type": 0,
+    "summary_total": 1897500,
+    "date": "2025-06-23",
+    "business_name": "مورد",
+    "payment_status": 2,
+    "requisition_delivery_status": 3,
+    "follow_up_status": null
+  },
+  {
+    "invoice_id": 14,
+    "domain_id": 1,
+    "type": 0,
+    "summary_total": 1840,
+    "date": "2025-06-22",
+    "business_name": "مورد",
+    "payment_status": 2,
+    "requisition_delivery_status": 1,
+    "follow_up_status": null
+  }
+]

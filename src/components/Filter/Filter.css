@@ -1,0 +1,46 @@
+.filter-container form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.filter-container .filter-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 45%;
+    min-width: 200px;
+}
+
+.filter-container .filter-item label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #4e5381;
+    font-size: 12px;
+}
+
+.filter-container .filter-item input,
+.filter-container .filter-item select {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 10px;
+    transition: border-color 0.2s;
+}
+
+.filter-container .filter-item input:focus,
+.filter-container .filter-item select:focus {
+    outline: none;
+    border-color: #4e5381;
+    box-shadow: 0 0 0 2px rgba(78, 83, 129, 0.2);
+}
+.filter-container .filter-actions {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "email": "mohamedabdallah555888@gmail.com",
+    "username": "Mohamed Abdallah",
+    "password": "$2b$10$ZLpWeT8UjYWNgr1Jbjw6rOivv0ODKi2AxUe4FIrIXQKy9yFp9OAHi"
+  },
+  {
+    "id": 2,
+    "email": "mohamed@mail.com",
+    "username": "Mohamed Second",
+    "password": "$2b$10$ctOAm3ScchkU4e6a8cEYJuUZ6NqH65zqYrth79RPsYeaTIxG0pIm."
+  },
+  {
+    "id": 3,
+    "email": "mohamed123@mail.com",
+    "username": "Mohamed Abdallah",
+    "password": "$2b$10$VvlCJjx82PXPOxqp5sEsMODlpRbtI/luyOISJddULKqdhY0jx.O9y"
+  }
+]

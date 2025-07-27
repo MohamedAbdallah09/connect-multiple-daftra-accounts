@@ -1,0 +1,27 @@
+.action-buttons .sync {
+    background: rgb(19, 178, 114);
+    transition: 0.3s;
+}
+.action-buttons .sync:hover {
+    background: rgb(14, 132, 84);
+}
+.filter-container.sync {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.filter-container.sync form {
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 5px;
+}

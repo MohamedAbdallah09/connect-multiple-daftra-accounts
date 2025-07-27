@@ -1,0 +1,41 @@
+.tabs-header button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    font-size: 12px;
+    transition: 0.3s;
+}
+.tabs-header button:hover {
+    background-color: #4e5381;
+    color: white;
+}
+.tabs-header .active {
+    background-color: #4e5381;
+    color: white;
+}
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.tabs-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+}
+.action-buttons button.sync {
+    margin-bottom: 20px;
+}
+.pagination-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.pagination-buttons button {
+    font-size: 12px;
+    border-radius: 0;
+    padding: 10px;
+}
