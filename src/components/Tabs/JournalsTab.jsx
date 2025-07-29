@@ -23,7 +23,6 @@ async function getJournalsFromDB(token, filters) {
         throw new Error("Failed to fetch journals");
     }
     const data = await response.json();
-    console.log(data);
 
     return await data;
 }

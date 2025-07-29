@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import * as config from "../../config.js";
 
-async function getAndPostToDB(
+async function getPageData(
     access_token,
     domain,
     page,
@@ -11,22 +11,33 @@ async function getAndPostToDB(
     toSync,
     dataToPost
 ) {
-    let syncType = "";
+    let toSyncEntity = "";
+    let dateFilters = "";
+    let typeFilters = "";
     if (toSync === "invoices") {
-        syncType = "invoice";
+        toSyncEntity = "invoice";
     } else if (toSync === "journals") {
-        syncType = "journal_transaction";
+        toSyncEntity = "journal_transaction";
     } else if (toSync === "purchase invoices") {
-        syncType = "purchase_order";
+        toSyncEntity = "purchase_order";
     } else if (toSync === "cost centers") {
-        syncType = "cost_center_transaction";
+        toSyncEntity = "cost_center_transaction";
+    }
+    if (toSync === "journals") {
+        dateFilters = `filter[journal.date][gte]=${syncFilters.dateFrom}&filter[journal.date][lte]=${syncFilters.dateTo}`;
+    } else {
+        dateFilters = `filter[date][gte]=${syncFilters.dateFrom}&filter[date][lte]=${syncFilters.dateTo}`;
+        if (toSync === "invoices" || toSync === "purchase invoices") {
+            typeFilters =
+                "filter[type][in][]=5&filter[type][in][]=6&filter[type][in][]=0";
+        }
     }
     try {
         console.log(
-            `https://${domain}.${subdomainProvider}.com/v2/api/entity/${syncType}/list/1?page=${page}&filter[type][in][]=6&filter[type][in][]=0&filter[created][gte]=${syncFilters.dateFrom}&filter[created][lte]=${syncFilters.dateTo}&filter[draft]=0`
+            `https://${domain}.${subdomainProvider}.com/v2/api/entity/${toSyncEntity}/list/1?page=${page}&filter[draft]=0&${dateFilters}&${typeFilters}`
         );
         const response = await fetch(
-            `https://${domain}.${subdomainProvider}.com/v2/api/entity/${syncType}/list/1?page=${page}&filter[type][in][]=6&filter[type][in][]=0&filter[created][gte]=${syncFilters.dateFrom}&filter[created][lte]=${syncFilters.dateTo}&filter[draft]=0`,
+            `https://${domain}.${subdomainProvider}.com/v2/api/entity/${toSyncEntity}/list/1?page=${page}&filter[draft]=0&${dateFilters}&${typeFilters}`,
             {
                 headers: {
                     Accept: "application/json",
@@ -36,19 +47,23 @@ async function getAndPostToDB(
             }
         );
         const data = await response.json();
-        console.log(data);
         const allSynced = data.data;
+        const syncedFollowUpStatus = [];
         for (const syncedItem of allSynced) {
             let followUpStatus = null;
             let syncedItemObject = {};
             if (toSync === "invoices" || toSync === "purchase invoices") {
-                if (syncedItem.follow_up_status) {
+                if (
+                    syncedItem.follow_up_status &&
+                    !syncedFollowUpStatus.includes(syncedItem.follow_up_status)
+                ) {
                     followUpStatus = await getFollowUpStatus(
                         access_token,
                         domain,
                         syncedItem.follow_up_status,
                         subdomainProvider
                     );
+                    syncedFollowUpStatus.push(followUpStatus.id);
                 }
                 syncedItemObject = makeSyncedItemObject(
                     toSync,
@@ -98,7 +113,6 @@ function makeSyncedItemObject(toSync, syncedItem, followUpStatus, domain_id) {
         };
     } else if (toSync === "journals") {
         itemObject = {
-            id: syncedItem.id,
             journal_id: syncedItem.journal_id,
             domain_id: domain_id,
             currency_credit: syncedItem.currency_credit,
@@ -116,6 +130,7 @@ function makeSyncedItemObject(toSync, syncedItem, followUpStatus, domain_id) {
         itemObject = syncedItem;
         itemObject.domain_id = domain_id;
         itemObject.date = itemObject.created.split(" ")[0];
+        delete itemObject.id;
     }
     return itemObject;
 }
@@ -215,7 +230,7 @@ async function SyncAllFromDaftra(
         let pageOne;
         let subdomainProvider = "daftra";
         try {
-            pageOne = await getAndPostToDB(
+            pageOne = await getPageData(
                 account.access_token,
                 account.domain,
                 1,
@@ -230,7 +245,7 @@ async function SyncAllFromDaftra(
             setCurrentPage(1);
             for (let i = 2; i <= totalPages; i++) {
                 if (syncCancelledRef.current) return;
-                await getAndPostToDB(
+                await getPageData(
                     account.access_token,
                     account.domain,
                     i,
@@ -244,7 +259,7 @@ async function SyncAllFromDaftra(
             }
         } catch (err) {
             subdomainProvider = "daftara";
-            pageOne = await getAndPostToDB(
+            pageOne = await getPageData(
                 account.access_token,
                 account.domain,
                 1,
@@ -259,7 +274,7 @@ async function SyncAllFromDaftra(
             setCurrentPage(1);
             for (let i = 2; i <= totalPages; i++) {
                 if (syncCancelledRef.current) return;
-                await getAndPostToDB(
+                await getPageData(
                     account.access_token,
                     account.domain,
                     i,

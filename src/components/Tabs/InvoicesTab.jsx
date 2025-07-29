@@ -87,7 +87,7 @@ export default function InvoicesTab({
         const invoicesCount = invoices.length;
         const total = invoices.reduce((sum, invoice) => {
             const value =
-                invoice.type === 6
+                invoice.type === 6 || invoice.type === 5
                     ? -invoice.summary_total
                     : invoice.summary_total;
             return sum + value;

@@ -1,6 +1,5 @@
 [
   {
-    "id": 4,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 2,
     "journal_account_id": 397,
@@ -94,7 +93,6 @@
     "date": "2025-07-27"
   },
   {
-    "id": 3,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 1,
     "journal_account_id": 397,
@@ -188,7 +186,6 @@
     "date": "2025-07-27"
   },
   {
-    "id": 2,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 2,
     "journal_account_id": 367,
@@ -282,7 +279,6 @@
     "date": "2025-07-27"
   },
   {
-    "id": 1,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 1,
     "journal_account_id": 49,
@@ -376,7 +372,6 @@
     "date": "2025-07-27"
   },
   {
-    "id": 217,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 26274,
@@ -470,7 +465,6 @@
     "date": "2025-07-23"
   },
   {
-    "id": 216,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 4,
     "journal_account_id": 26274,
@@ -564,7 +558,6 @@
     "date": "2025-07-23"
   },
   {
-    "id": 215,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 77,
     "journal_account_id": 37463,
@@ -658,7 +651,6 @@
     "date": "2025-03-18"
   },
   {
-    "id": 214,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 66,
     "journal_account_id": 37463,
@@ -752,7 +744,6 @@
     "date": "2025-03-18"
   },
   {
-    "id": 213,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 28,
@@ -846,7 +837,6 @@
     "date": "2025-03-10"
   },
   {
-    "id": 212,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37463,
@@ -940,7 +930,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 211,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37462,
@@ -1034,7 +1023,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 210,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37989,
@@ -1128,7 +1116,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 209,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37989,
@@ -1222,7 +1209,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 208,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37989,
@@ -1316,7 +1302,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 207,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37989,
@@ -1410,7 +1395,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 206,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37463,
@@ -1504,7 +1488,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 205,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37463,
@@ -1598,7 +1581,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 204,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37463,
@@ -1692,7 +1674,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 203,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37463,
@@ -1786,7 +1767,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 202,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37463,
@@ -1880,7 +1860,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 201,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37463,
@@ -1974,7 +1953,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 200,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37461,
@@ -2068,7 +2046,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 199,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37459,
@@ -2162,7 +2139,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 198,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 11,
     "journal_account_id": 37458,
@@ -2256,7 +2232,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 197,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37460,
@@ -2350,7 +2325,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 196,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 72,
     "journal_account_id": 37463,
@@ -2444,7 +2418,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 195,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 72,
     "journal_account_id": 37462,
@@ -2538,7 +2511,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 194,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 72,
     "journal_account_id": 37460,
@@ -2632,7 +2604,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 193,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 72,
     "journal_account_id": 37461,
@@ -2726,7 +2697,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 192,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 72,
     "journal_account_id": 37459,
@@ -2820,7 +2790,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 191,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 72,
     "journal_account_id": 37458,
@@ -2914,7 +2883,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 190,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37463,
@@ -3008,7 +2976,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 189,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37462,
@@ -3102,7 +3069,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 188,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37460,
@@ -3196,7 +3162,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 187,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37461,
@@ -3290,7 +3255,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 186,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37459,
@@ -3384,7 +3348,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 185,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37458,
@@ -3478,7 +3441,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 184,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37463,
@@ -3572,7 +3534,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 183,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37462,
@@ -3666,7 +3627,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 182,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37460,
@@ -3760,7 +3720,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 181,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37461,
@@ -3854,7 +3813,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 180,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37459,
@@ -3948,7 +3906,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 179,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37458,
@@ -4042,7 +3999,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 70,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 15,
     "journal_account_id": 24725,
@@ -4136,7 +4092,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 69,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 15,
     "journal_account_id": 24725,
@@ -4230,7 +4185,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 68,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 15,
     "journal_account_id": 24725,
@@ -4324,7 +4278,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 67,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 15,
     "journal_account_id": 24725,
@@ -4418,7 +4371,6 @@
     "date": "2025-03-09"
   },
   {
-    "id": 177,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 10,
     "journal_account_id": 37463,
@@ -4512,7 +4464,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 176,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37461,
@@ -4606,7 +4557,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 175,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37458,
@@ -4700,7 +4650,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 174,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37463,
@@ -4794,7 +4743,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 173,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37462,
@@ -4888,7 +4836,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 172,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37460,
@@ -4982,7 +4929,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 171,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37461,
@@ -5076,7 +5022,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 170,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37459,
@@ -5170,7 +5115,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 169,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37458,
@@ -5264,7 +5208,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 168,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37462,
@@ -5358,7 +5301,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 167,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37463,
@@ -5452,7 +5394,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 166,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37461,
@@ -5546,7 +5487,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 165,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37460,
@@ -5640,7 +5580,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 164,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37459,
@@ -5734,7 +5673,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 163,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37458,
@@ -5828,7 +5766,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 162,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37463,
@@ -5922,7 +5859,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 161,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37460,
@@ -6016,7 +5952,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 160,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37461,
@@ -6110,7 +6045,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 159,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 21,
     "journal_account_id": 37463,
@@ -6204,7 +6138,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 158,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 21,
     "journal_account_id": 37462,
@@ -6298,7 +6231,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 157,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 21,
     "journal_account_id": 37460,
@@ -6392,7 +6324,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 156,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 75,
     "journal_account_id": 37461,
@@ -6486,7 +6417,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 155,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37463,
@@ -6580,7 +6510,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 154,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37462,
@@ -6674,7 +6603,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 153,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37460,
@@ -6768,7 +6696,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 152,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37461,
@@ -6862,7 +6789,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 151,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 58,
     "journal_account_id": 37459,
@@ -6956,7 +6882,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 150,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -7050,7 +6975,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 149,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37462,
@@ -7144,7 +7068,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 148,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37460,
@@ -7238,7 +7161,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 147,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37461,
@@ -7332,7 +7254,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 146,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37459,
@@ -7426,7 +7347,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 145,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37458,
@@ -7520,7 +7440,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 144,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37463,
@@ -7614,7 +7533,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 143,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37462,
@@ -7708,7 +7626,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 142,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37460,
@@ -7802,7 +7719,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 141,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37461,
@@ -7896,7 +7812,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 140,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37459,
@@ -7990,7 +7905,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 139,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37458,
@@ -8084,7 +7998,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 16,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 10,
     "journal_account_id": 37463,
@@ -8178,7 +8091,6 @@
     "date": "2025-03-08"
   },
   {
-    "id": 138,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37459,
@@ -8272,7 +8184,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 137,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 73,
     "journal_account_id": 37464,
@@ -8366,7 +8277,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 136,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 71,
     "journal_account_id": 37463,
@@ -8460,7 +8370,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 135,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37463,
@@ -8554,7 +8463,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 134,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37461,
@@ -8648,7 +8556,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 133,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37459,
@@ -8742,7 +8649,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 132,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 70,
     "journal_account_id": 37458,
@@ -8836,7 +8742,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 131,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 68,
     "journal_account_id": 37465,
@@ -8930,7 +8835,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 130,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 66,
     "journal_account_id": 37465,
@@ -9024,7 +8928,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 129,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 65,
     "journal_account_id": 37463,
@@ -9118,7 +9021,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 128,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 65,
     "journal_account_id": 37460,
@@ -9212,7 +9114,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 127,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 65,
     "journal_account_id": 37461,
@@ -9306,7 +9207,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 126,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 65,
     "journal_account_id": 37459,
@@ -9400,7 +9300,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 125,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 65,
     "journal_account_id": 37458,
@@ -9494,7 +9393,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 124,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 65,
     "journal_account_id": 37462,
@@ -9588,7 +9486,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 123,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37463,
@@ -9682,7 +9579,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 122,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37463,
@@ -9776,7 +9672,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 121,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37462,
@@ -9870,7 +9765,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 120,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37461,
@@ -9964,7 +9858,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 119,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37459,
@@ -10058,7 +9951,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 118,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37458,
@@ -10152,7 +10044,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 117,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 64,
     "journal_account_id": 37460,
@@ -10246,7 +10137,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 116,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 56,
     "journal_account_id": 37463,
@@ -10340,7 +10230,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 115,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 56,
     "journal_account_id": 37460,
@@ -10434,7 +10323,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 114,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 56,
     "journal_account_id": 37461,
@@ -10528,7 +10416,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 113,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 56,
     "journal_account_id": 37459,
@@ -10622,7 +10509,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 112,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 56,
     "journal_account_id": 37458,
@@ -10716,7 +10602,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 111,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 56,
     "journal_account_id": 37462,
@@ -10810,7 +10695,6 @@
     "date": "2025-03-06"
   },
   {
-    "id": 110,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 62,
     "journal_account_id": 37463,
@@ -10904,7 +10788,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 109,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 60,
     "journal_account_id": 37463,
@@ -10998,7 +10881,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 108,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -11092,7 +10974,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 107,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -11186,7 +11067,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 106,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37463,
@@ -11280,7 +11160,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 105,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37463,
@@ -11374,7 +11253,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 104,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -11468,7 +11346,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 103,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -11562,7 +11439,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 102,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37463,
@@ -11656,7 +11532,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 101,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -11750,7 +11625,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 100,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -11844,7 +11718,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 99,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37463,
@@ -11938,7 +11811,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 98,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 52,
     "journal_account_id": 37989,
@@ -12032,7 +11904,6 @@
     "date": "2025-03-05"
   },
   {
-    "id": 97,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37989,
@@ -12126,7 +11997,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 96,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37989,
@@ -12220,7 +12090,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 95,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37989,
@@ -12314,7 +12183,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 94,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37989,
@@ -12408,7 +12276,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 93,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 61,
     "journal_account_id": 37989,
@@ -12502,7 +12369,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 92,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -12596,7 +12462,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 91,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37989,
@@ -12690,7 +12555,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 90,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37989,
@@ -12784,7 +12648,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 89,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 60,
     "journal_account_id": 37989,
@@ -12878,7 +12741,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 88,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 59,
     "journal_account_id": 37989,
@@ -12972,7 +12834,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 87,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 58,
     "journal_account_id": 37989,
@@ -13066,7 +12927,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 86,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13160,7 +13020,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 85,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13254,7 +13113,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 84,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13348,7 +13206,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 83,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13442,7 +13299,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 82,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13536,7 +13392,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 81,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13630,7 +13485,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 80,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13724,7 +13578,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 79,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13818,7 +13671,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 78,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 37463,
@@ -13912,7 +13764,6 @@
     "date": "2025-03-04"
   },
   {
-    "id": 77,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37463,
@@ -14006,7 +13857,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 76,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37461,
@@ -14100,7 +13950,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 75,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 37458,
@@ -14194,7 +14043,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 74,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37463,
@@ -14288,7 +14136,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 73,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37461,
@@ -14382,7 +14229,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 72,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37459,
@@ -14476,7 +14322,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 71,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 37458,
@@ -14570,7 +14415,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 66,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37463,
@@ -14664,7 +14508,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 65,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37461,
@@ -14758,7 +14601,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 64,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37459,
@@ -14852,7 +14694,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 63,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37458,
@@ -14946,7 +14787,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 62,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37463,
@@ -15040,7 +14880,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 61,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37461,
@@ -15134,7 +14973,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 60,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37459,
@@ -15228,7 +15066,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 59,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 37458,
@@ -15322,7 +15159,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 22,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 16,
     "journal_account_id": 37463,
@@ -15416,7 +15252,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 20,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 14,
     "journal_account_id": 37459,
@@ -15510,7 +15345,6 @@
     "date": "2025-03-03"
   },
   {
-    "id": 52,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37462,
@@ -15604,7 +15438,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 51,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37463,
@@ -15698,7 +15531,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 50,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 37460,
@@ -15792,7 +15624,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 49,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 12,
     "journal_account_id": 37463,
@@ -15886,7 +15717,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 48,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 51,
     "journal_account_id": 37463,
@@ -15980,7 +15810,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 47,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 51,
     "journal_account_id": 37458,
@@ -16074,7 +15903,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 46,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 50,
     "journal_account_id": 37463,
@@ -16168,7 +15996,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 45,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 50,
     "journal_account_id": 37458,
@@ -16262,7 +16089,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 44,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 49,
     "journal_account_id": 37462,
@@ -16356,7 +16182,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 27,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 19,
     "journal_account_id": 37460,
@@ -16450,7 +16275,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 26,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 18,
     "journal_account_id": 37460,
@@ -16544,7 +16368,6 @@
     "date": "2025-03-02"
   },
   {
-    "id": 40,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 13,
     "journal_account_id": 35925,
@@ -16638,7 +16461,6 @@
     "date": "2025-02-25"
   },
   {
-    "id": 35,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 9,
     "journal_account_id": 36564,
@@ -16732,7 +16554,6 @@
     "date": "2025-02-20"
   },
   {
-    "id": 33,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 34650,
@@ -16826,7 +16647,6 @@
     "date": "2025-02-18"
   },
   {
-    "id": 32,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 21,
     "journal_account_id": 29822,
@@ -16920,7 +16740,6 @@
     "date": "2025-02-18"
   },
   {
-    "id": 31,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 20,
     "journal_account_id": 34650,
@@ -17014,7 +16833,6 @@
     "date": "2025-02-15"
   },
   {
-    "id": 30,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 35601,
@@ -17108,7 +16926,6 @@
     "date": "2025-02-15"
   },
   {
-    "id": 29,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 10,
     "journal_account_id": 36559,
@@ -17202,7 +17019,6 @@
     "date": "2025-02-13"
   },
   {
-    "id": 28,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 8,
     "journal_account_id": 35601,
@@ -17296,7 +17112,6 @@
     "date": "2025-02-13"
   },
   {
-    "id": 25,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 17,
     "journal_account_id": 34838,
@@ -17390,7 +17205,6 @@
     "date": "2025-02-13"
   },
   {
-    "id": 14,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 28,
@@ -17484,7 +17298,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 9,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 24904,
@@ -17578,7 +17391,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 8,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 24904,
@@ -17672,7 +17484,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 7,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 24904,
@@ -17766,7 +17577,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 6,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 24904,
@@ -17860,7 +17670,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 5,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 24904,
@@ -17954,7 +17763,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 4,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 6,
     "journal_account_id": 24904,
@@ -18048,7 +17856,6 @@
     "date": "2024-12-24"
   },
   {
-    "id": 3,
     "cost_center_journal_account_id": 0,
     "cost_center_id": 4,
     "journal_account_id": 21562,

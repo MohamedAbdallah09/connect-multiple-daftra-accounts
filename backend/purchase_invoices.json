@@ -1,11 +1,24 @@
 [
   {
+    "invoice_id": 22,
+    "domain_id": 1,
+    "type": 0,
+    "summary_total": 560.74892,
+    "date": "2025-07-28",
+    "business_name": "فارما اوفرسيز",
+    "currency_code": "EGP",
+    "payment_status": 2,
+    "requisition_delivery_status": 3,
+    "follow_up_status": null
+  },
+  {
     "invoice_id": 7617,
     "domain_id": 2,
     "type": 0,
     "summary_total": 345,
     "date": "2025-07-12",
     "business_name": "Fojian Tenlead Advanced شركة",
+    "currency_code": "SAR",
     "payment_status": 2,
     "requisition_delivery_status": 3,
     "follow_up_status": null
@@ -17,6 +30,7 @@
     "summary_total": 1000,
     "date": "2025-07-01",
     "business_name": "Amer S",
+    "currency_code": "SAR",
     "payment_status": 1,
     "requisition_delivery_status": null,
     "follow_up_status": null
@@ -28,6 +42,7 @@
     "summary_total": 1897500,
     "date": "2025-06-23",
     "business_name": "مورد",
+    "currency_code": "EGP",
     "payment_status": 2,
     "requisition_delivery_status": 3,
     "follow_up_status": null
@@ -39,6 +54,7 @@
     "summary_total": 1840,
     "date": "2025-06-22",
     "business_name": "مورد",
+    "currency_code": "EGP",
     "payment_status": 2,
     "requisition_delivery_status": 1,
     "follow_up_status": null

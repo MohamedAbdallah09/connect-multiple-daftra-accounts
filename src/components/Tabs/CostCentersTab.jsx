@@ -23,8 +23,6 @@ async function getCostCentersFromDB(token, filters) {
         throw new Error("Failed to fetch journals");
     }
     const data = await response.json();
-    console.log(data);
-
     return await data;
 }
 
@@ -148,9 +146,6 @@ export default function CostCentersTab({
                                     <tbody>
                                         {visibleCostCenters.map(
                                             (costCenterTransaction, i) => {
-                                                console.log(
-                                                    costCenterTransaction.credit
-                                                );
                                                 return (
                                                     <tr key={i}>
                                                         <td>

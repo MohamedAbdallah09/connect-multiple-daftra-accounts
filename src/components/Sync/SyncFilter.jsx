@@ -71,7 +71,7 @@ export default function SyncFilter({
         e.preventDefault();
         const filters = {
             dateFrom: dateFrom,
-            dateTo: setDateToEndOfDay(dateTo),
+            dateTo: dateTo,
             account: selectedAccount.value,
         };
         setShowSyncFilters(false);
