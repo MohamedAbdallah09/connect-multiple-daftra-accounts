@@ -171,8 +171,20 @@ export default function InvoicesTab({
                                                 invoice.follow_up_status.color;
                                         }
                                         return (
-                                            <tr key={invoice.invoice_id}>
-                                                <td>{invoice.business_name}</td>
+                                            <tr
+                                                key={invoice.invoice_id}
+                                                className={
+                                                    invoice.type === 6 ||
+                                                    invoice.type === 5
+                                                        ? "loss"
+                                                        : ""
+                                                }
+                                            >
+                                                <td>
+                                                    {
+                                                        invoice.client_business_name
+                                                    }
+                                                </td>
                                                 <td className="date">
                                                     {invoice.date}
                                                 </td>
@@ -199,6 +211,10 @@ export default function InvoicesTab({
                                                     />
                                                 </td>
                                                 <td>
+                                                    {invoice.type === 6 ||
+                                                    invoice.type === 5
+                                                        ? "-"
+                                                        : ""}
                                                     {format(
                                                         invoice.summary_total
                                                     ) +

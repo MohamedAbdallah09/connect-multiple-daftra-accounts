@@ -414,7 +414,7 @@ app.get("/accounts", authenticateToken, (req, res) => {
     res.json(userAccounts);
 });
 app.post("/accounts", authenticateToken, (req, res) => {
-    const { domain, access_token, business_name } = req.body;
+    const { domain, access_token, business_name, branches } = req.body;
     if (!domain || !access_token || !business_name) {
         return res.status(400).json({ error: "Missing fields" });
     }
@@ -445,6 +445,7 @@ app.post("/accounts", authenticateToken, (req, res) => {
         domain,
         access_token,
         business_name,
+        branches,
     };
     accounts.unshift(newAccount);
     writeJSON(ACCOUNTS_FILE, accounts);

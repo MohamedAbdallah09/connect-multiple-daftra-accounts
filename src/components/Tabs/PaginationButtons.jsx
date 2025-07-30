@@ -16,7 +16,7 @@ export default function PaginationButtons({
             <button
                 className="next submit"
                 onClick={onNextClick}
-                disabled={visibleCount + 20 > item.length + 20}
+                disabled={visibleCount + 20 >= item.length + 20}
             >
                 <i className="fas fa-arrow-right"></i>
             </button>

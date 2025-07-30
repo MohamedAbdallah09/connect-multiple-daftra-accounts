@@ -33,10 +33,12 @@ async function getAccessToken(
         const data = await response.json();
         if (data.access_token) {
             const siteInfo = await getSiteInfo(data.access_token, domain);
+            const siteBranches = await getBranches(data.access_token, domain);
             const postAccountResult = await postAccount(
                 domain,
                 data.access_token,
-                siteInfo.business_name
+                siteInfo.business_name,
+                siteBranches
             );
             if (postAccountResult?.success) {
                 setAccounts((prevAccounts) => [
@@ -45,6 +47,7 @@ async function getAccessToken(
                         access_token: data.access_token,
                         business_name: siteInfo.business_name,
                         domain_id: postAccountResult.domain_id,
+                        branches: siteBranches,
                     },
                     ...prevAccounts,
                 ]);
@@ -75,7 +78,21 @@ async function getSiteInfo(access_token, domain) {
     const data = await response.json();
     return data.data.Site;
 }
-async function postAccount(domain, access_token, business_name) {
+async function getBranches(access_token, domain) {
+    const response = await fetch(
+        `https://${domain}.daftra.com/v2/api/entity/branch/list`,
+        {
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${access_token}`,
+            },
+        }
+    );
+    const data = await response.json();
+    return data.data.map((branch) => branch.id);
+}
+async function postAccount(domain, access_token, business_name, branches) {
     const token = localStorage.getItem("token");
     const response = await fetch(`${config.API_URL}/accounts`, {
         method: "POST",
@@ -87,6 +104,7 @@ async function postAccount(domain, access_token, business_name) {
             domain,
             access_token,
             business_name,
+            branches,
         }),
     });
     if (!response.ok) {

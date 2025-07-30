@@ -71,6 +71,7 @@ function App() {
             />
         );
     }
+
     if (page === "addAccount") {
         return (
             <AddAccount

@@ -167,7 +167,11 @@ export default function PurchaseInvoicesTab({
                                         }
                                         return (
                                             <tr key={invoice.invoice_id}>
-                                                <td>{invoice.business_name}</td>
+                                                <td>
+                                                    {
+                                                        invoice.client_business_name
+                                                    }
+                                                </td>
                                                 <td className="date">
                                                     {invoice.date}
                                                 </td>
